@@ -1,0 +1,95 @@
+* {
+    background: rgb(218, 220, 223);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #000;
+    margin-top: 10px;
+}
+
+p {
+    color: #000;
+    position: relative;
+    margin: 0;
+    top: 10px;
+}
+
+.logo {
+    width: 120px;
+}
+
+.imovel {
+    width: 350px;
+    height: 233px;
+    border-radius: 15px;
+}
+
+.content_anuncio {
+    display: block;
+    margin-top: 25px;
+}
+
+.anuncio_1 {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding-right: 175px;
+    margin-left: 215px;
+    margin-right: 100px;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+
+.anuncio_2 {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding-right: 150px;
+    margin-left: 215px;
+    margin-right: 100px;
+    margin-top: 30px;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+
+.anuncio_3 {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding-right: 130px;
+    margin-left: 215px;
+    margin-right: 100px;
+    margin-top: 30px;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+
+.anuncio_4 {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding-right: 130px;
+    margin-left: 215px;
+    margin-right: 100px;
+    margin-top: 30px;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+
+footer {
+    background: rgb(193, 199, 209);
+    display: grid;
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
+}
+
+footer img {
+    justify-self: center;
+}
+
+footer span {
+    background: rgb(193, 199, 209);
+    justify-self: center;
+    margin-bottom: 10px;
+}
+
